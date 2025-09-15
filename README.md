@@ -1,6 +1,8 @@
 # AI-Influenced-Speech-Detection
 Understand and detect AI influenced speech spoken language assessments. 
-Study presented at the National Council for Measurement in Education (NCME) annual meeting in Denver, CO (2025).
+
+*Study presented at the National Council for Measurement in Education (NCME) annual meeting in Denver, CO (2025).*
+
 <img width="600" height="350" alt="Image" src="https://github.com/user-attachments/assets/b20d6f67-41c0-49c5-8c8e-f7216b1016a8" />
 
 
