@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: "AI-Influenced Speech Detection in Educational Assessments Using Linguistic and Acoustic Features"
+message: "If you use this software or the associated paper, please cite it using the metadata from this file."
+type: software
+authors:
+  - family-names: "Hadi"
+    given-names: "Syed Abdul"
+repository-code: "https://github.com/syedhadi816/AI-Influenced-Speech-Detection"
+url: "https://doi.org/10.26153/tsw/61304"
+doi: "10.26153/tsw/61304"
+date-released: 2025-06-01
+keywords:
+  - AI
+  - education
+  - test security
+  - language assessment
+  - speech detection
+  - plagiarism detection
+license: MIT
+preferred-citation:
+  type: article
+  title: "AI-Influenced Speech Detection in Educational Assessments Using Linguistic and Acoustic Features"
+  authors:
+    - family-names: "Hadi"
+      given-names: "Syed Abdul"
+  year: 2025
+  publisher: "Texas ScholarWorks, The University of Texas at Austin"
+  doi: "10.26153/tsw/61304"
+  url: "https://doi.org/10.26153/tsw/61304"

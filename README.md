@@ -1,14 +1,132 @@
-# AI-Influenced-Speech-Detection
-Understand and detect AI influenced speech spoken language assessments. 
+# AI-Influenced Speech Detection
 
+[![DOI](https://img.shields.io/badge/DOI-10.26153%2Ftsw%2F61304-0077b6?style=flat-square)](https://doi.org/10.26153/tsw/61304)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.x-3776ab?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?style=flat-square&logo=jupyter&logoColor=white)](https://jupyter.org/)
 
-[![Read Paper](https://img.shields.io/badge/Read%20Paper-blue?style=for-the-badge)](https://doi.org/10.26153/tsw/61304)
+An interpretable, feature-based framework for detecting **plagiarized or AI-influenced speech** in spoken language assessments. This repository accompanies the research presented at the **National Council for Measurement in Education (NCME)** annual meeting (Denver, CO, 2025) and the associated publication.
 
-*Study presented at the National Council for Measurement in Education (NCME) annual meeting in Denver, CO (2025). https://doi.org/10.26153/tsw/61304*
+---
 
-<img width="600" height="350" alt="Image" src="https://github.com/user-attachments/assets/b20d6f67-41c0-49c5-8c8e-f7216b1016a8" />
+## 📄 Publication
 
+**Automated Plagiarism Detection in Spoken Responses using Linguistic and Acoustic Features**
 
+- **Authors:** Syed Abdul Hadi  
+- **DOI:** [10.26153/tsw/61304](https://doi.org/10.26153/tsw/61304)  
+- **Institutional repository:** [UT Austin Texas ScholarWorks](https://doi.org/10.26153/tsw/61304)  
+- **Keywords:** AI, Education, Test Security, Language Assessment  
 
-The proliferation of generative AI tools has raised concerns about the authenticity of responses in spoken language assessments. This study presents an interpretable, AI-driven framework to detect plagiarized or AI-influenced speech by analyzing speech delivery in addition to content. Using a dataset of 640 audio samples from a high-stakes English language proficiency test, we extract a comprehensive set of linguistic and acoustic features—such as speech rate, pause patterns, lexical richness, prosody, and energy entropy—to characterize spontaneous versus nonspontaneous responses. Ten machine learning classifiers, including Support Vector Machines (SVM), Multilayer Perceptron (MLP), and Explainable Boosting Machine (EBM), were trained and evaluated. The SVM and MLP models achieved the highest accuracy of 89%, outperforming traditional content-based AI plagiarism detection approaches. Additionally, we conducted statistical tests to validate feature discriminability, revealing significant differences in both mean and variance across most features between spontaneous and AI-influenced speech. Our results demonstrate the potential of feature-based, interpretable machine learning to bolster test security and provide fairer assessments in spoken language testing environments.
+If you use this work in your research, please cite the paper (see [CITATION](#citation) below).
 
+---
+
+## 🎯 Overview
+
+The proliferation of generative AI tools has raised concerns about the **authenticity of responses** in spoken language assessments. This project presents a machine learning framework that detects AI-influenced or plagiarized speech by analyzing **speech delivery** in addition to content—going beyond traditional content-only plagiarism detection.
+
+### Key contributions
+
+- **Linguistic and acoustic feature set:** Speech rate, pause patterns, lexical richness, prosody, and energy entropy to distinguish spontaneous vs. nonspontaneous responses.  
+- **Interpretable models:** Ten classifiers (SVM, MLP, EBM, etc.) with emphasis on explainability.  
+- **Strong performance:** SVM and MLP achieve **89% accuracy** on 640 audio samples from a high-stakes English language proficiency test, outperforming content-based baselines.  
+- **Statistical validation:** Feature discriminability validated via tests on both mean and variance across spontaneous and AI-influenced speech.
+
+---
+
+## 📁 Repository structure
+
+```
+AI-Influenced-Speech-Detection/
+├── README.md
+├── LICENSE
+├── CITATION.cff
+├── requirements.txt
+├── .gitignore
+└── AI_Influenced_Speech_Detection_and_Analysis.ipynb   # Main analysis notebook
+```
+
+---
+
+## 🚀 Getting started
+
+### Requirements
+
+- **Python 3.x**  
+- **Jupyter** (for running the notebook)  
+- Dependencies used in the notebook (e.g., `numpy`, `pandas`, `scikit-learn`, and audio/linguistic libraries as defined in the notebook)
+
+### Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/syedhadi816/AI-Influenced-Speech-Detection.git
+   cd AI-Influenced-Speech-Detection
+   ```
+
+2. **Create a virtual environment (recommended)**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # On Windows: venv\Scripts\activate
+   ```
+
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+   The notebook may use additional libraries (e.g. for audio); install any missing packages as prompted.
+
+4. **Run the notebook**
+   ```bash
+   jupyter notebook AI_Influenced_Speech_Detection_and_Analysis.ipynb
+   ```
+
+### Data
+
+The analysis in the paper uses **640 audio samples** from a high-stakes English language proficiency assessment. Due to test security and data privacy, the dataset is not included in this repository. The notebook documents the feature extraction and modeling pipeline so it can be adapted to compatible audio datasets.
+
+---
+
+## 📊 Methods (summary)
+
+| Component        | Description |
+|-----------------|-------------|
+| **Features**    | Linguistic (e.g., lexical richness, fluency) and acoustic (speech rate, pauses, prosody, energy entropy). |
+| **Models**      | SVM, MLP, EBM, and seven other classifiers; SVM and MLP reported at 89% accuracy. |
+| **Interpretability** | Feature-based design and use of explainable models (e.g., EBM) for transparency. |
+
+---
+
+## 📜 Citation
+
+If you use this code or the associated paper in your work, please cite:
+
+```bibtex
+@article{hadi2025ai,
+  author    = {Hadi, Syed Abdul},
+  title     = {AI-Influenced Speech Detection in Educational Assessments Using Linguistic and Acoustic Features},
+  year      = {2025},
+  publisher = {Texas ScholarWorks},
+  doi       = {10.26153/tsw/61304},
+  url       = {https://doi.org/10.26153/tsw/61304}
+}
+```
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 👤 Author
+
+**Syed Abdul Hadi**  
+- GitHub: [@syedhadi816](https://github.com/syedhadi816)  
+- Research: Office of Institutional Research and Analysis (OIRA), The University of Texas at Austin  
+
+---
+
+*This work supports test security and fairness in spoken language assessments by enabling more reliable detection of AI-influenced or non-spontaneous responses.*
