@@ -5,6 +5,8 @@
 [![Python](https://img.shields.io/badge/Python-3.x-3776ab?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?style=flat-square&logo=jupyter&logoColor=white)](https://jupyter.org/)
 
+*This work was conducted at the [Wisconsin Center for Education Research](https://wcer.wisc.edu/) (WCER).*
+
 An interpretable, feature-based framework for detecting **plagiarized or AI-influenced speech** in spoken language assessments. This repository accompanies the research presented at the **National Council for Measurement in Education (NCME)** annual meeting (Denver, CO, 2025) and the associated publication.
 
 ---
@@ -125,7 +127,7 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 **Syed Abdul Hadi**  
 - GitHub: [@syedhadi816](https://github.com/syedhadi816)  
-- Research: Office of Institutional Research and Analysis (OIRA), The University of Texas at Austin  
+- This research was conducted during the author’s tenure at the **Wisconsin Center for Education Research** (WCER), University of Wisconsin–Madison.  
 
 ---
 

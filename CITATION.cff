@@ -5,6 +5,7 @@ type: software
 authors:
   - family-names: "Hadi"
     given-names: "Syed Abdul"
+    affiliation: "Wisconsin Center for Education Research (WCER), University of Wisconsin-Madison"
 repository-code: "https://github.com/syedhadi816/AI-Influenced-Speech-Detection"
 url: "https://doi.org/10.26153/tsw/61304"
 doi: "10.26153/tsw/61304"
