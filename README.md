@@ -99,6 +99,8 @@ The analysis in the paper uses **640 audio samples** from a high-stakes English 
 | **Models**      | SVM, MLP, EBM, and seven other classifiers; SVM and MLP reported at 89% accuracy. |
 | **Interpretability** | Feature-based design and use of explainable models (e.g., EBM) for transparency. |
 
+![Accuracy comparison of all classifiers](classifier_results.png)
+
 ---
 
 ## 📜 Citation
