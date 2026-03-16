@@ -1,6 +1,5 @@
 # AI-Influenced Speech Detection
 
-[![DOI](https://img.shields.io/badge/DOI-10.26153%2Ftsw%2F61304-0077b6?style=flat-square)](https://doi.org/10.26153/tsw/61304)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.x-3776ab?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?style=flat-square&logo=jupyter&logoColor=white)](https://jupyter.org/)
