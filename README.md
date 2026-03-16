@@ -19,6 +19,7 @@ An interpretable, feature-based framework for detecting **plagiarized or AI-infl
 - **Affiliation:** WIDA  
 - **Venue:** National Council on Measurement in Education (NCME) Annual Meeting  
 - **Location & Year:** Denver, CO, 2025  
+- **Download:** [ResearchGate PDF](https://www.researchgate.net/publication/402298797_Automated_Plagiarism_and_AI-Influenced_Speech_Detection_in_Spoken_Responses_Using_Linguistic_and_Acoustic_Features)  
 
 If you use this work in your research, please cite the NCME paper (see [Citation](#citation) below).
 
