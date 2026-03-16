@@ -13,14 +13,14 @@ An interpretable, feature-based framework for detecting **plagiarized or AI-infl
 
 ## 📄 Publication
 
-**Automated Plagiarism Detection in Spoken Responses using Linguistic and Acoustic Features**
+**Automated Plagiarism and AI-Influenced Speech Detection in Spoken Responses Using Linguistic and Acoustic Features**
 
-- **Authors:** Syed Abdul Hadi  
-- **DOI:** [10.26153/tsw/61304](https://doi.org/10.26153/tsw/61304)  
-- **Institutional repository:** [UT Austin Texas ScholarWorks](https://doi.org/10.26153/tsw/61304)  
-- **Keywords:** AI, Education, Test Security, Language Assessment  
+- **Authors:** Syed A. Hadi, Kyoungwon Bishop, Hacer Karamese, Sooyong Lee  
+- **Affiliation:** WIDA  
+- **Venue:** National Council on Measurement in Education (NCME) Annual Meeting  
+- **Location & Year:** Denver, CO, 2025  
 
-If you use this work in your research, please cite the paper (see [CITATION](#citation) below).
+If you use this work in your research, please cite the NCME paper (see [Citation](#citation) below).
 
 ---
 
@@ -102,16 +102,16 @@ The analysis in the paper uses **640 audio samples** from a high-stakes English 
 
 ## 📜 Citation
 
-If you use this code or the associated paper in your work, please cite:
+If you use this code or the associated NCME paper in your work, please cite:
 
 ```bibtex
-@article{hadi2025ai,
-  author    = {Hadi, Syed Abdul},
-  title     = {AI-Influenced Speech Detection in Educational Assessments Using Linguistic and Acoustic Features},
+@inproceedings{hadi2025ncme,
+  author    = {Hadi, Syed A. and Bishop, Kyoungwon and Karamese, Hacer and Lee, Sooyong},
+  title     = {Automated Plagiarism and AI-Influenced Speech Detection in Spoken Responses Using Linguistic and Acoustic Features},
+  booktitle = {Proceedings of the National Council on Measurement in Education (NCME) Annual Meeting},
   year      = {2025},
-  publisher = {Texas ScholarWorks},
-  doi       = {10.26153/tsw/61304},
-  url       = {https://doi.org/10.26153/tsw/61304}
+  address   = {Denver, CO},
+  note      = {WIDA}
 }
 ```
 

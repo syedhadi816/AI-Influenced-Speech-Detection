@@ -1,30 +1,20 @@
 cff-version: 1.2.0
-title: "AI-Influenced Speech Detection in Educational Assessments Using Linguistic and Acoustic Features"
-message: "If you use this software or the associated paper, please cite it using the metadata from this file."
-type: software
+message: "If you use this software, please cite the NCME paper below."
+title: "Automated Plagiarism and AI-Influenced Speech Detection in Spoken Responses Using Linguistic and Acoustic Features"
+type: conference-paper
 authors:
   - family-names: "Hadi"
-    given-names: "Syed Abdul"
-    affiliation: "Wisconsin Center for Education Research (WCER), University of Wisconsin-Madison"
+    given-names: "Syed A."
+  - family-names: "Bishop"
+    given-names: "Kyoungwon"
+  - family-names: "Karamese"
+    given-names: "Hacer"
+  - family-names: "Lee"
+    given-names: "Sooyong"
 repository-code: "https://github.com/syedhadi816/AI-Influenced-Speech-Detection"
-url: "https://doi.org/10.26153/tsw/61304"
-doi: "10.26153/tsw/61304"
-date-released: 2025-06-01
-keywords:
-  - AI
-  - education
-  - test security
-  - language assessment
-  - speech detection
-  - plagiarism detection
 license: MIT
-preferred-citation:
-  type: article
-  title: "AI-Influenced Speech Detection in Educational Assessments Using Linguistic and Acoustic Features"
-  authors:
-    - family-names: "Hadi"
-      given-names: "Syed Abdul"
+conference:
+  name: "National Council on Measurement in Education (NCME) Annual Meeting"
+  city: "Denver"
+  country: "USA"
   year: 2025
-  publisher: "Texas ScholarWorks, The University of Texas at Austin"
-  doi: "10.26153/tsw/61304"
-  url: "https://doi.org/10.26153/tsw/61304"
